@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 2em;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+input,
+button {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  width: 100%;
+  font-size: 1em;
+}
+
+#resultArea {
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px dashed #aaa;
+  background: #f9f9f9;
+}
+
+#options {
+  background: #f0f0f0;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+#customSelector {
+  margin-top: 1em;
+
+  input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+}

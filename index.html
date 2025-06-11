@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <link rel="icon" sizes="192x192" href="#">
+  <title>簡易爬蟲 APP</title>
+  <meta name="description" content="簡易爬蟲 APP">
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+  <main>
+    <h1>簡易爬蟲 APP</h1>
+    <input type="text" id="urlInput" placeholder="輸入網址，例如：https://example.com" />
+
+    <div id="customSelector">
+      <label for="customTag">自訂選擇器（CSS 選擇器，例如 td、.post-title、#main > div）：</label>
+      <input type="text" id="customTag" placeholder="例如：td 或 .my-class" />
+    </div>
+
+    <button id="crawlBtn">開始爬蟲</button>
+
+    <div id="resultArea"></div>
+
+    <p style="font-size: 0.9em; color: #888;">
+      ※ 本工具適用於靜態網頁與 SSR 網站。若目標頁面為 SPA 或 JavaScript 動態載入資料，可能無法正確擷取。
+    </p>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
