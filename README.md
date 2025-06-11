@@ -15,11 +15,13 @@
 
 ## 🧱 專案結構
 
-crawler-app/
-├── index.html # 主畫面介面
-├── style.css # 頁面樣式
-├── script.js # 前端邏輯（含爬蟲與渲染）
-└── proxy.php # 後端 Proxy，代為抓取外部 HTML
+```bash
+ crawler-app/
+ ├── index.html # 主畫面介面
+ ├── style.css # 頁面樣式
+ ├── script.js # 前端邏輯（含爬蟲與渲染）
+ └── proxy.php # 後端 Proxy，代為抓取外部 HTML
+```
 
 ---
 
